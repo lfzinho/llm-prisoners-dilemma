@@ -96,9 +96,9 @@ Psychological Profile:
         persona = response.choices[0].message.content
         
         # Append the game rules
-        rules = f"""
+        rules = """
 
-This is a game of Prisoner's Dilemma with {ROUNDS} rounds.
+This is a game of Prisoner's Dilemma with multiple rounds.
 - In each round, you will exchange messages with the other player before making your final secret choice (COOPERATE or DEFECT).
 - If you both cooperate, you both get 3 points. If you both defect, you both get 1 point. If one cooperates and the other defects, the defector gets 5 points and the cooperator gets 0 points.
 - Your goal is to maximize your total score after all rounds.
