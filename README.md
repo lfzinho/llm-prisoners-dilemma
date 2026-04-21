@@ -1,9 +1,9 @@
-# LLM Prisoner's Dilemma Simulation 🤖🤝🤖
+# LLM Prisoner's Dilemma Simulation
 
-Welcome to the **LLM Prisoner's Dilemma**, a game-theory simulation where two distinct AI agents, powered by Large Language Models (LLMs), negotiate and decide whether to COOPERATE or DEFECT.
+**LLM Prisoner's Dilemma** is a game-theory simulation where two distinct AI agents powered by LLMs negotiate and decide whether to COOPERATE or DEFECT.
 
-🎯 **View the latest interactive simulation report here:**  
-👉 **[Live HTML Report](https://lfzinho.github.io/llm-prisoners-dilemma/report.html)** 👈
+**View the latest interactive simulation report:**  
+**[HTML Report](https://lfzinho.github.io/llm-prisoners-dilemma/report.html)**
 
 ## How it works
 
@@ -11,7 +11,7 @@ Welcome to the **LLM Prisoner's Dilemma**, a game-theory simulation where two di
 2. **Persona Creation (Victor Frankenstein)**: A specialized LLM profiler converts these numeric traits into a descriptive psychological profile, which is then used to generate a strict, customized `System Prompt` for each agent.
 3. **The Game Loop**: Over the course of multiple rounds, the two agents debate in a conversational format. They attempt to deceive, form alliances, or stay true to their nature based solely on their predefined personas.
 4. **The Decision**: After the debate, agents make a final, secret choice to `COOPERATE` or `DEFECT`, and are scored based on the classic Prisoner's Dilemma payoff matrix.
-5. **Report Generation**: The entire chat history, private reasoning, and scores are recorded in real-time to a `report.md` file. At the end of the simulation, this markdown is automatically compiled into a beautifully styled `report.html` dashboard.
+5. **Report Generation**: The entire chat history, private reasoning, and scores are recorded to a `report.md` file. At the end of the simulation, this markdown is automatically compiled into a `report.html` view.
 
 ## Requirements & Setup
 
